@@ -37,7 +37,7 @@
     
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-4">
+            <div class="col-auto">
             <form class="mt-5" action="index.php" method="POST">
             <h4 class="text-center">IMC</h4>
                 <div class="row">
