@@ -42,8 +42,8 @@
             <h4 class="text-center">Spring Step</h4>
                 <div class="row mt-4">
                     <div>
-                            <select class="custom-select" name="selector">
-                                <option default selected disabled value="Marca">Marca del par de Zapatos</option>
+                            <select required class="custom-select" name="selector"> 
+                                <option default selected disabled value="">Marca del par de Zapatos</option>
                                 <option value="Nike">Nike</option>
                                 <option value="Adidas">Adidas</option>
                                 <option value="Converse">Converse</option>
@@ -51,7 +51,7 @@
                             </select>
                     </div>
                     <div class="col">
-                        <input type="number" class="form-control" placeholder="Cantidad vendida" name="cantidadVendida">
+                        <input type="number" required="required" class="form-control" placeholder="Cantidad vendida" name="cantidadVendida">
                     </div>
 
                 </div>

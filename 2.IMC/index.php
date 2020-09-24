@@ -40,12 +40,12 @@
             <div class="col-auto">
             <form class="mt-5" action="index.php" method="POST">
             <h4 class="text-center">IMC</h4>
-                <div class="row">
+                <div class="row mt-4">
                     <div class="col">
-                        <input type="float" class="form-control" placeholder="Peso [kg]" name="peso">
+                        <input type="float" required class="form-control" placeholder="Peso [kg]" name="peso">
                     </div>
                     <div class="col">
-                        <input type="float" class="form-control" placeholder="Altura [m]" name="altura">
+                        <input type="float" required class="form-control" placeholder="Altura [m]" name="altura">
                     </div>
                 </div>
                 <button type="submit" class="btn btn-primary mt-5" name="botonEnviar">Enviar</button>
